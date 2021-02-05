@@ -18,4 +18,4 @@ social: true  # includes social icons at the bottom of the page
 
 Hello my name is Paul K&ouml;ttering. I am interested in quantum computing, scientific machine learning and financial mathematics.
 
-I graduated from UC Berkeley in December 2020 with a major in Applied Mathematics and a minor in Physics. During the Spring 2021 semester I will be working full-time with Professor Lin in the UC Berkeley Department of Mathematics. I am looking to attend graduate school in Fall 2021.
+I graduated from UC Berkeley in December 2020 with a major in Applied Mathematics and a minor in Physics. During the Spring 2021 semester I will be working full-time with [Professor Lin](https://math.berkeley.edu/~linlin/index.html){:target="\_blank"} in the UC Berkeley Department of Mathematics. I am looking to attend graduate school in Fall 2021.
