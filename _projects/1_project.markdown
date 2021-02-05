@@ -6,7 +6,7 @@ img: /assets/img/ResultEthene.png
 importance: 1
 ---
 
-In the Spring 2020 semester I completed a group project focusing on simulating molecules using a quantum Recurrent Neural Network (RNN) to initialize a Variational Quantum Eigensolver, implemented in TensorFlow Quantum and OpenFirmion Cirq. We showed that substantial performance increases could be achieved through a chemically motivated RNN ansatz. Please find the final project [pdf](http://127.0.0.1:4000/al-folio/assets/pdf/5_Kottering_paper.pdf){:target="\_blank"} for a more detailed explanation of our project.
+In the Spring 2020 semester I completed a group project focusing on simulating molecules using a quantum Recurrent Neural Network (RNN) to initialize a Variational Quantum Eigensolver, implemented in TensorFlow Quantum and OpenFirmion Cirq. We showed that substantial performance increases could be achieved through a chemically motivated RNN ansatz. Please find the final project [pdf](/assets/pdf/5_Kottering_paper.pdf){:target="\_blank"} for a more detailed explanation of our project.
 
 Project completed with Pratik Brahma, Kian Jansepar, Joseph Palakapilly and Michael Qi.
 
