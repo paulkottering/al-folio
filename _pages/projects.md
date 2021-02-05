@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: research + coursework
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Some projects I have completed. Coursework completed listed below.
 nav: true
 ---
 
@@ -45,3 +45,22 @@ nav: true
 {% endfor %}
 
 </div>
+<br/>
+
+Here is some selected advanced undergraduate coursework which I have completed:
+
+| UC Berkeley Course Number      | Subject | Class Description     |
+| :---        |    :----:   |          ---: |
+221	|Math|	Advanced Matrix Computations
+185|	Math|	Introduction to Complex Analysis
+170|	Math	|Mathematical Methods for Optimization
+128A |	Math|	Numerical Analysis
+113	|Math|	Introduction to Abstract Analysis
+110	|Math|	Linear Algebra
+104|	Math|	Introduction to Analysis
+C191 |	Physics	|Quantum Information Science and Technology
+188	|Physics	|     Bayesian Data Analysis and Machine Learning for Physical Sciences
+151	|Physics	|Elective Physics: Quantum Field Theory
+137B	|Physics|	Quantum Mechanics Part B
+137A |	Physics	|Quantum Mechanics Part A
+105	|Physics	|Analytic Mechanics

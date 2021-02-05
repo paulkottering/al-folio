@@ -1,77 +1,17 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
+title: Quantum Gryoscope CubeSat
+description: A CubeSat project developed through STAC.
+img: /assets/img/quantum_gyro_diagram.png
 importance: 2
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+During my junior year I was co-president of Space Technologies at Cal (STAC), an on-campus student-led research organization that focuses on designing and manufacturing creative engineering solutions to space engineering problems.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Inspired by what I had learned in my quantum coursework, I initiated a project that applied existing UC Berkeley research on quantum gyroscopes based on NV–centers in diamonds to miniature satellite technology. Please see the [STAC Webpage](https://stac.berkeley.edu/project/qubesat){:target="\_blank"} for more information about the status and design on the project.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+The QubeSat project’s primary goal is to research the effects of space environments on quantum gyroscopes, a groundbreaking experimental sensor based on nitrogen vacancies (NV-) centers in diamonds. In comparison to more traditional onboard micromechanical gyroscopes, quantum gyroscopes provide improved resolution, improved drift stability and increased temperature operational range. QubeSat’s upcoming mission will allow us to evaluate the effect of the harsh space environment — including extreme temperatures, radiation, and magnetic field variation — that could affect the gyroscopes’s performance in small-scale spaceflight. QubeSat’s secondary goal is to increase the accessibility of space and to inspire STEM education. Increasing accessibility to space starts at UC Berkeley and the STAC community, which is a group of over 60 passionate students who are working on a range of technologies aimed at making strides in space research. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/1.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/3.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/5.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+Following a successful ideation effort based upon this premise, I was part of the team that spearheaded an accepted application for NASA's CubeSat Launch Initiative (CSLI) worth up to $300,000. The CSLI provides access to space for universities, high schools, and nonprofit organizations through fully funded launch opportunities, however it does not provide funding for the manufacturing of the satellite.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/" target="_blank">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/6.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/11.jpg' | relative_url }}" alt="" title="example image"/>
-    </div>
-</div>
-```
+Of the 32 proposals that were submitted during the 11th round of candidates, the QubeSat mission was [selected](https://www.nasa.gov/feature/nasa-announces-11th-round-of-candidates-for-cubesat-space-missions){:target="\_blank"} in the top 10, securing a vital part of the missions success. Through the Student Technology Fund we were also given a grant of $4,995 which will go towards both the scientific payload and the manufacturing of the CubeSat. The grant writing process involved developing a working relationship with the Space Science Laboratory (SSL) at Berkeley, securing sponsorships from local space tech companies and laying out scientific, engineering and operational strategies.
