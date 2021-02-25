@@ -11,7 +11,7 @@ profile:
     <p>2643 College Avenue</p>
     <p>Berkeley, CA 94704</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -24,4 +24,4 @@ I graduated from UC Berkeley in December 2020 with a major in Applied Mathematic
 <br/>
 <br/>
 
-Please see my film tab for an overview of my '[life in film](https://letterboxd.com/paulkottering/stats/){:target="\_blank"}'. I always appreciate film suggestions that I ought to add to my watchlist so please feel free to contact me in any way. I recently transferred all my film ratings to [letterboxd](https://letterboxd.com/){:target="\_blank"} and I recommend this social platform for any other film enthusiasts.
+Please see my film tab for an overview of my '[life in film](https://letterboxd.com/paulkottering/stats/){:target="\_blank"}'. I always appreciate film suggestions that I ought to add to my watchlist so please feel free to contact me. I recently transferred all my film ratings to [letterboxd](https://letterboxd.com/){:target="\_blank"} and I recommend this social film platform for any other film enthusiasts.
