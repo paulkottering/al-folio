@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Paul M.H. K&ouml;ttering | blank</title>
+<title>Paul M.H. K&ouml;ttering | RL-QAOA Research</title>
 <meta name="description" content="Personal website for Paul K&ouml;ttering.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/projects/4_project/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -169,57 +169,21 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h2></h2>
-    <h3>A space for me to review and recommend films I have seen.</h3>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">RL-QAOA Research</h1>
+    <p class="post-description">A summary of my research contributions to Professor Lin's group.</p>
+  </header>
 
+  <article>
+    <p>Since July 2020 I have been working with Professor L. Lin’s group in the Department of Applied Mathematics at UC Berkeley, where our research group has sought to improve the Quantum Approximate Optimization Algorithm (QAOA) by using deep reinforcement learning (RL). Leveraging the flexibility and efficiency of a deep autoregressive neural network we were able to demonstrate accuracy gains over prior quantum control methods. The enhanced method mixes the uncertainty-resilient policy gradient protocol optimizer and the complex combinatorial task of constructing a sequence of unitaries out of a predefined expanded set of gates, based on counter-diabatic driving, through a novel algorithm called RL-QAOA. Please see our <a href="/assets/pdf/2012.06701.pdf" target="\_blank">paper</a> for greater understanding of the project.</p>
 
+<p>Originally tasked with adapting the standard Policy Gradient QAOA (PG-QAOA) through the introduction of a time duration constraint, I developed with multiple implementation approaches such as resampling, introducing additional RL penalties and a normalization procedure. After implementing these variants in TensorFlow I communicated and re-iterated with the team; carrying out a systematic comparison of the options, and eventually finalizing a strategy based on our findings. Utilizing physically-motivated intuition I then studied how initialization of the protocol distribution affected the performance of the PG-QAOA and RL-QAOA, and  provided visualizations of the distribution’s temporal evolution. Finally, through my performance analysis of a beta distribution instead of the initially-chosen sigmoid Gaussian distribution, I showed the former to be more versatile and reach higher energy. Through these contributions I developed a better, more compactly-supported policy and helped improve the performance of the algorithm.</p>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/test/">Film Review Test</a></h3>
-        <p class="post-meta">February 2, 2021</p>
-        <p>Review of Film by Director</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2021/twitter/">Film Review Test</a></h3>
-        <p class="post-meta">February 2, 2021</p>
-        <p>Review of Film by Director</p>
-      </li>
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a></h3>
-        <p class="post-meta">September 28, 2020</p>
-        <p>a quick run down on accessing github metadata.</p>
-      </li>
-    
-  </ul>
+<p>By graduating this Winter I will be able to further explore scientific machine learning by working full time with Professor Lin during the Spring 2021 semester. This experience will provide me with additional research experience that will smooth my transition to postgraduate education.</p>
 
-  
-<nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li>
-    
-      
-        <li class="page-item active"><a class="page-link" href="/blog/index.html" title="blank">1</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blank - page 2">2</a></li>
-      
-        <li class="page-item "><a class="page-link" href="/blog/page/3/index.html" title="blank - page 3">3</a></li>
-      
-    
-    <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
+<p>I am very grateful for all the mentorship and explanations that <a href="https://jiahaoyao.github.io/" target="\_blank">Jiahao Yao</a> has given me during this research experience.</p>
 
-
+  </article>
 
 </div>
 
